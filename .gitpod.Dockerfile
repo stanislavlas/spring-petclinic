@@ -1,4 +1,4 @@
 FROM gitpod/workspace-full
 
-RUN sudo apt update && \
-	sudo apt install git-crypt
+RUN apt update && \
+	apt install git-crypt
