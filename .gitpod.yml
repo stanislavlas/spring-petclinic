@@ -1,6 +1,5 @@
 # List the start up tasks. Learn more https://www.gitpod.io/docs/config-start-tasks/
 tasks:
-  - before: git config credential.helper "/usr/bin/gp credential-helper"
   - init: mvn package -Dmaven.test.skip.exec
     command: java -jar target/*.jar
 
