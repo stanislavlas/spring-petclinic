@@ -10,3 +10,7 @@ ports:
 
 image:
   file: .gitpod.Dockerfile
+
+vscode:
+  extensions:
+    - ckolkman.vscode-postgres
