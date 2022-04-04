@@ -11,7 +11,7 @@ ports:
     onOpen: open-preview
 
 image:
-  file: .gitpod/.gitpod.Dockerfile
+  file: .gitpod/Dockerfile
 
 vscode:
   extensions:
