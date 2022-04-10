@@ -2,7 +2,7 @@
 tasks:
   # - before: sudo sh ./.gitpod/setup.sh $GITPOD_GIT_USER_NAME $GITPOD_GIT_USER_EMAIL
   - init: mvn package -Dmaven.test.skip.exec
-    command:  git-crypt unlock ~/git-crypt-key
+    command:  git-crypt unlock ~/git-crypt-key && \
               java -jar target/*.jar
 
 # List the ports to expose. Learn more https://www.gitpod.io/docs/config-ports/
