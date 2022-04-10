@@ -15,4 +15,5 @@ image:
 
 vscode:
   extensions:
+    - vscjava.vscode-java-pack
     - ckolkman.vscode-postgres
